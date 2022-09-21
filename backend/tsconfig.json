@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "lib": ["es2020"],
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "incremental": true,
+    "pretty": true,
+    "strict": true,
+    "alwaysStrict": false,
+    "useUnknownInCatchVariables": false,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+
+    "types": ["node", "jest"],
+    "isolatedModules": false,
+    "esModuleInterop": true
+  },
+  "include": ["./src/**/*"]
+}
